@@ -1,0 +1,99 @@
+ * {
+     padding: 0;
+     margin: 0;
+ }
+
+
+
+
+ #is {
+     margin: auto;
+     margin-top: .5em;
+     text-transform: uppercase;
+     letter-spacing: 3px;
+     word-spacing: 12px;
+     text-align: center;
+     background: linear-gradient(to right, rgb(111, 0, 255) 20%, red);
+     animation: 2s txt linear;
+     -webkit-background-clip: text;
+     background-clip: text;
+     -webkit-text-fill-color: transparent;
+     color: blue;
+
+ }
+
+ @keyframes txt {
+     0% {
+         letter-spacing: 30px;
+     }
+ }
+
+ .container {
+     width: 60%;
+     height: 70vh;
+     margin: auto;
+     margin-top: 2em;
+     border: 10px solid black;
+     position: relative;
+ }
+
+ .photo {
+     width: 100%;
+     height: 70vh;
+     position: absolute;
+ }
+
+ .p1 {
+     background-image: url(img/m1.jpg);
+     background-size: cover;
+ }
+
+ .p2 {
+     background-image: url(img/m2.jpg);
+     background-size: cover;
+ }
+
+ .p3 {
+     background-image: url(img/m3.jpg);
+     background-size: cover;
+ }
+
+ .p4 {
+     background-image: url(img/music1.jpg);
+     background-size: cover;
+ }
+
+ .p5 {
+     background-image: url(img/music2.jpg);
+     background-size: cover;
+ }
+
+ .p6 {
+     background-image: url(img/music4.jpg);
+     background-size: cover;
+ }
+
+ #leftArrow,
+ #rightArrow {
+     width: 1em;
+     height: 1em;
+     background-color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 2em;
+     font-weight: bolder;
+     border: 2px solid black;
+     cursor: pointer;
+ }
+
+
+ #leftArrow {
+     /* transform: translate(9em, -8em); */
+     transform: translate(22vw, -8em);
+ }
+
+ #rightArrow {
+     /* transform: translate(32.5em, -9em); */
+     transform: translate(75vw, -9em);
+ }
